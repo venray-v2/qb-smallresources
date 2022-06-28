@@ -16,12 +16,16 @@ ConsumeablesEat = {
     ["tosti"] = math.random(40, 50),
     ["twerks_candy"] = math.random(35, 54),
     ["snikkel_candy"] = math.random(40, 50),
+    ["frikandelbroodje"] = math.random(40, 50),
+    ["croissant"] = math.random(40, 50),
 }
 
 ConsumeablesDrink = {
     ["water_bottle"] = math.random(35, 54),
     ["kurkakola"] = math.random(35, 54),
     ["coffee"] = math.random(40, 50),
+    ["kindercola"] = math.random(40, 50),
+    ["redbull"] = math.random(40, 50),
 }
 
 ConsumeablesAlcohol = {
@@ -130,6 +134,19 @@ Config.Teleports = {
             coords = vector4(1088.81, -3187.57, -38.99, 181.7),
             ["AllowVehicle"] = false,
             drawText = '[E] Leave'
+        },
+    },
+        --Courtroom enter/leave
+    [3] = {
+        [1] = {
+            coords = vector4(448.92, -1001.37, 27.49, 271.57),
+            ["AllowVehicle"] = false,
+            drawText = '[E] Ga naar de rechtzaal'
+        },
+        [2] = {
+            coords = vector4(239.74, -443.31, -22.82, 243.19),
+            ["AllowVehicle"] = false,
+            drawText = '[E] Ga terug'
         },
     },
 }
